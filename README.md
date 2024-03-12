@@ -1,3 +1,3 @@
 # joinme.io
 
-http://localhost:3000/joinme.github.io
+https://tan4575.github.io/joinme.github.io/
