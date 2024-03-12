@@ -1,15 +1,13 @@
 {
   "files": {
     "main.css": "/joinme.github.io/static/css/main.fa38b4dd.css",
-    "main.js": "/joinme.github.io/static/js/main.0a63c248.js",
-    "static/js/592.59312ae2.chunk.js": "/joinme.github.io/static/js/592.59312ae2.chunk.js",
+    "main.js": "/joinme.github.io/static/js/main.8dead8e2.js",
     "index.html": "/joinme.github.io/index.html",
     "main.fa38b4dd.css.map": "/joinme.github.io/static/css/main.fa38b4dd.css.map",
-    "main.0a63c248.js.map": "/joinme.github.io/static/js/main.0a63c248.js.map",
-    "592.59312ae2.chunk.js.map": "/joinme.github.io/static/js/592.59312ae2.chunk.js.map"
+    "main.8dead8e2.js.map": "/joinme.github.io/static/js/main.8dead8e2.js.map"
   },
   "entrypoints": [
     "static/css/main.fa38b4dd.css",
-    "static/js/main.0a63c248.js"
+    "static/js/main.8dead8e2.js"
   ]
 }
