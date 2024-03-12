@@ -1,16 +1,13 @@
 {
   "files": {
     "main.css": "/joinme.github.io/static/css/main.f855e6bc.css",
-    "main.js": "/joinme.github.io/static/js/main.0264b2d2.js",
-    "static/js/592.59312ae2.chunk.js": "/joinme.github.io/static/js/592.59312ae2.chunk.js",
-    "static/media/logo.svg": "/joinme.github.io/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.js": "/joinme.github.io/static/js/main.e6ca934d.js",
     "index.html": "/joinme.github.io/index.html",
     "main.f855e6bc.css.map": "/joinme.github.io/static/css/main.f855e6bc.css.map",
-    "main.0264b2d2.js.map": "/joinme.github.io/static/js/main.0264b2d2.js.map",
-    "592.59312ae2.chunk.js.map": "/joinme.github.io/static/js/592.59312ae2.chunk.js.map"
+    "main.e6ca934d.js.map": "/joinme.github.io/static/js/main.e6ca934d.js.map"
   },
   "entrypoints": [
     "static/css/main.f855e6bc.css",
-    "static/js/main.0264b2d2.js"
+    "static/js/main.e6ca934d.js"
   ]
 }
