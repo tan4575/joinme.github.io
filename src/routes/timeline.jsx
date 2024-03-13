@@ -17,18 +17,18 @@ export default class Timeline extends Component {
                 <div className="timeline-centered">
                   <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
                     <div className="timeline-entry-inner">
-                      <div className="timeline-icon color-3">
+                      <div className="timeline-icon color-1">
                         <i className="icon-pen2" />
                       </div>
                       <div className="timeline-label">
-                        <h2>Senior Research Engineer - Software at Dyson Singapore  <span>Oct 2023 - Present</span></h2>
+                        <h2>Senior Research Software Engineer at Dyson Singapore  <span>Oct 2023 - Present</span></h2>
                         <p> I mainly working on the research projects as part of a team whilst mentoring graduates and new team members Reviewing relevant articles, papers and patents and meeting with suppliers to meet product requirements. Integrated embedded Linux software for demonstration rigs to prove feasibility of new technologies and products.</p>
                       </div>
                     </div>
                   </article>
                   <article className="timeline-entry animate-box" data-animate-effect="fadeInTop">
                     <div className="timeline-entry-inner">
-                      <div className="timeline-icon color-4">
+                      <div className="timeline-icon color-2">
                         <i className="icon-pen2" />
                       </div>
                       <div className="timeline-label">
@@ -39,41 +39,29 @@ export default class Timeline extends Component {
                   </article>
                   <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
                     <div className="timeline-entry-inner">
-                      <div className="timeline-icon color-5">
+                      <div className="timeline-icon color-3">
                         <i className="icon-pen2" />
                       </div>
                       <div className="timeline-label">
                         <h2>Firmware Engineer II - Senior Firmware Engineer at Thermofisher <span>Nov 2020 - June 2023</span></h2>
-                        <p>I design and implement embedded firmware using C, C++ and Python for the life science instruments. Perform design and code review to meet firmware quality. Development of thermal control system to meet instrument system thermal performance specification. </p> 
-                      </div>
-                    </div>
-                  </article>
-                  <article className="timeline-entry begin animate-box" data-animate-effect="fadeInBottom">
-                    <div className="timeline-entry-inner">
-                      <div className="timeline-icon color-none">
+                        <p>I designed and implemented embedded firmware using C, C++ and Python for the life science instruments. Perform design and code review to meet firmware quality. Development of thermal control system to meet instrument system thermal performance specification. </p>
                       </div>
                     </div>
                   </article>
                   <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
                     <div className="timeline-entry-inner">
-                      <div className="timeline-icon color-6">
+                      <div className="timeline-icon color-4">
                         <i className="icon-pen2" />
                       </div>
                       <div className="timeline-label">
                         <h2>Firmware Engineer I at Toshiba TEC <span>Apr 2019 - Nov 2020</span></h2>
-                        <p>I Design, development, testing and support of Printers Firmware. Program Design, coding and debugging of a product Making a software test plan and specification of a product. Assigned to design and develop programmable content in electronic hardware devices which provides instructions to device on how to operate. </p> 
-                      </div>
-                    </div>
-                  </article>
-                  <article className="timeline-entry begin animate-box" data-animate-effect="fadeInBottom">
-                    <div className="timeline-entry-inner">
-                      <div className="timeline-icon color-none">
+                        <p> I have invloved in design, development, testing and support of Printers Firmware. Program Design, coding and debugging of a product Making a software test plan and specification of a product. Assigned to design and develop programmable content in electronic hardware devices which provides instructions to device on how to operate. </p> 
                       </div>
                     </div>
                   </article>
                   <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
                     <div className="timeline-entry-inner">
-                      <div className="timeline-icon color-6">
+                      <div className="timeline-icon color-5">
                         <i className="icon-pen2" />
                       </div>
                       <div className="timeline-label">

@@ -8,9 +8,10 @@ export default class Sidebar extends Component {
           <nav href="#navbar" className="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i /></nav>
           <aside id="colorlib-aside" className="border js-fullheight">
             <div className="text-center">
-              <div className="author-img" style={{backgroundImage: 'url(images/AuroraFlag_Stalnacke_6677.jpg)'}} />
+              <div className="author-img" style={{backgroundImage: 'url(images/me.jpg)'}} />
               <h1 id="colorlib-logo"><a href="index.html">Tan Wei Siang</a></h1>
               <span className="email"><i className="icon-mail"></i> tan4575@hotmail.com/ws-tan@wiu.edu</span>
+              <span className="phone"><i className="icon-phone"></i> +6597826269 </span>
             </div>
             <nav id="colorlib-main-menu" role="navigation" className="navbar">
               <div id="navbar" className="collapse">
@@ -37,7 +38,7 @@ export default class Sidebar extends Component {
                   Thanks <a href="https://colorlib.com" target="_blank" rel="noopener noreferrer">Colorlib</a> for inspiration 
               </small></p>
               <p><small>
-                Something coming soon !!
+                Image Credit & Copyright: <a href="https://www.nasa.gov/" target="_blank" rel="noopener noreferrer">NASA</a>, <a href="https://www.esa.int/" target="_blank" rel="noopener noreferrer">ESA</a>, <a href="https://science.nasa.gov/mission/hubble/" target="_blank" rel="noopener noreferrer">Hubble</a>, <a href="https://stevecullenmedia.com/about/" target="_blank" rel="noopener noreferrer"> Steve Cullen </a>
               </small></p>
             </div>
           </aside>

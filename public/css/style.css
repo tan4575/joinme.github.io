@@ -266,7 +266,7 @@ figure {
         display: block;
         margin-bottom: 10px; }
         #colorlib-hero .flexslider .flex-control-nav li a {
-          background: rgba(0, 0, 0, 0.5);
+          background: rgb(115, 236, 109);
           -webkit-box-shadow: none;
           box-shadow: none;
           width: 12px;
@@ -559,7 +559,9 @@ body.offcanvas {
   line-height: 40px;
   float: left; }
   .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon i {
-    color: #fff; }
+    color: #ffffff; }
+  .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.color-1 {
+    background: #53ec89; }
   .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.color-2 {
     background: #ec5453; }
   .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.color-3 {
@@ -568,8 +570,10 @@ body.offcanvas {
     background: #a84cb8; }
   .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.color-5 {
     background: #2fa499; }
+  .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.color-6 {
+    background: #0a0ade; }
   .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.color-none {
-    background: #fff;
+    background: #ffffff;
     width: 20px;
     height: 20px;
     margin-left: 10px; }

@@ -720,6 +720,9 @@ margin-left: -20px;
 	i{
 		color: $brand-white;	
 	}
+	&.color-1{
+		background: $brand-color-1;
+	}
 	&.color-2{
 		background: $brand-color-2;
 	}
@@ -731,6 +734,9 @@ margin-left: -20px;
 	}
 	&.color-5{
 		background: $brand-color-5;
+	}
+	&.color-6{
+		background: $brand-color-6;
 	}
 	&.color-none{
 		background: $brand-white;
