@@ -13,7 +13,7 @@ export default class About extends Component {
                     <div className="about-desc">
                     <span className="heading-meta">About Me</span>
                     <h2 className="colorlib-heading">Who Am I?</h2>
-                    <p> I am a former physics student from Western Illinois University (WIU). I have completed my Master of Science in physics from WIU in 2017. In order to equip myself with frontier technology I took an initiative and enrolled in a part-time Master of Science program specialized in Deep Learning for Industry (Industry 4.0) offered by National University of Singapore (NUS). Currently, I am working as a Senior Software Developer in a Dyson that desgin and develop household appliances. My current job scope is to develop software for the new design rig. The blend of the knowledge from various fields have well prepared me for a software and system level architecture design. </p>
+                    <p> I am a former physics student from Western Illinois University (WIU). I have completed my Master of Science in physics from WIU in 2017. In order to equip myself with frontier technology I took an initiative and enrolled in a part-time Master of Science program specialized in Deep Learning for Industry (Industry 4.0) offered by National University of Singapore (NUS). Currently, I am working as a Senior Software Developer in Dyson that design and develop household appliances. My current job scope is to develop software for the new design rigs. The blend of the knowledge from various fields have well prepared me for a software and system level architecture design. </p>
                     </div>
                 </div>
                 </div>
@@ -37,7 +37,7 @@ export default class About extends Component {
                 </span>
                 <div className="desc">
                     <h3> Firmware Engineer </h3>
-                    <p>I have worked as an embedded software developer for Toshiba TEC Singapore, Thermofisher Scientific, Scooterson and Dyson. I have been involved in multiple projects, including motion controller, thermal PID controller, lead and participate in electrical and system integration design. Meanwhile, I have participated in designing the software architecture for embedded systems and devices, including defining the hardware interfaces, selecting appropriate microcontrollers, and designing data structures and algorithms.</p>
+                    <p>I have worked as an embedded software developer for Toshiba TEC Singapore, Thermofisher Scientific, Scooterson and Dyson. I have been involved in multiple projects, including motion controller, thermal PID controller, lead and participate in electrical and system integration design. Meanwhile, I have participated in designing the software architecture for embedded systems and devices, including defining the hardware interfaces, selecting appropriate microcontrollers, and designing data structures and algorithms. With my deep understanding of embedded Linux, bash/shell scripting and proficiency in developing foundational code, I am well-equipped to spearhead the creation of robust and tailored solutions that will elevate our team's projects to new heights. </p>
                 </div>
                 </div>
             </div>
@@ -48,7 +48,7 @@ export default class About extends Component {
                 </span>
                 <div className="desc">
                     <h3>Research work</h3>
-                    <p> In the past, I have been involved in stellar astrophysics research under supervision of professor Esteban D. Araya and received several grants and scholarships. Although I have graduated from WIU in 2017, because of my passion toward the research in the area of astrophysics, I continue to work closely with my advisor in WIU, currently I am Western Illinous University (WIU) affliation and have 3 papers published in the astronomical journal. I have collaborated with students and professors in published manuscript using LaTeX. Performed data analysis and data reduction of observed data by leveraging the use of IDL. Created models of multiple molecular transition spectral lines using RADEX code and Python scripts to study and understand physical conditions of distant objects. </p>
+                    <p> In the past, I have been involved in stellar astrophysics research under supervision of professor Esteban D. Araya and received several grants and scholarships. Although I have graduated from WIU in 2017, because of my passion toward the research in the area of astrophysics, I continue to work closely with my advisor in WIU, currently I am Western Illinous University (WIU) affliation and have 3 papers published in the astronomical journal. I have collaborated with students and professors in published manuscript using LaTeX. I have performed data analysis and data reduction of observed data by leveraging the use of IDL. I created models of multiple molecular transition spectral lines using RADEX code and Python scripts to study and understand physical conditions of distant objects. </p>
                 </div>
                 </div>
             </div>
