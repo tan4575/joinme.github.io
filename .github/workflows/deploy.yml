@@ -60,5 +60,7 @@ jobs:
     needs: build
     steps:
       - name: Deploy to GitHub Pages
+        env:
+          REACT_APP_API_KEY: ${{ secrets.REACT_APP_API_KEY }}
         id: deployment
         uses: actions/deploy-pages@v3
