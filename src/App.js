@@ -6,7 +6,7 @@ import About from './routes/about'
 import Timeline from './routes/timeline'
 import Projects from './routes/projects'
 
-const apiKey = process.vars.TEST;
+const apiKey = process.env.TEST;
 class App extends Component {
   render() {
     console.log(apiKey)
