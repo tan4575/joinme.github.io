@@ -5,6 +5,7 @@ import Introduction from './routes/introduction'
 import About from './routes/about'
 import Timeline from './routes/timeline'
 import Projects from './routes/projects'
+import Test from './test'
 const apiKey = process.env.REACT_APP_API_KEY;
 class App extends Component {
   render() {
@@ -18,6 +19,9 @@ class App extends Component {
 					<About></About>
 					<Timeline></Timeline>
           <Projects></Projects>
+          <Routes>
+            <Route path="/test" element={<Test />} />
+          </Routes>
           	</div>
       	</div>
       </div>
