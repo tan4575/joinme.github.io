@@ -23,7 +23,7 @@ jobs:
         env:
           SUPER_SECRET: ${{ secrets.REACT_APP_API_KEY }}
         run: |
-          example-command "$SUPER_SECRET"
+          echo "$SUPER_SECRET"
       - name: Checkout Repository
         uses: actions/checkout@v4
       - name: Detect package manager
