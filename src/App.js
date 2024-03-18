@@ -14,15 +14,13 @@ class App extends Component {
       <div id="colorlib-page">
         <div id="container-wrap">
          	<Sidebar></Sidebar>
-				<div id="colorlib-main">
-					<Introduction></Introduction>
-					<About></About>
-					<Timeline></Timeline>
-          <Projects></Projects>
-          <Routes>
-            <Route path="/test" element={<Test />} />
-          </Routes>
-          	</div>
+          <div id="colorlib-main">
+            <Introduction></Introduction>
+            <About></About>
+            <Timeline></Timeline>
+            <Projects></Projects>
+            <Test></Test>
+          </div>
       	</div>
       </div>
     );

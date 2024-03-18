@@ -1,5 +1,12 @@
+import React, { Component } from 'react'
 const apiKey = process.env.REACT_APP_API_KEY;
-const test = () => {
-  return <h1>test page 1.0, Secret: {apiKey}</h1>;
-};
-export default test;
+
+export default class Introduction extends Component {
+  render() {
+    return (
+      <div>
+        <h1>About page 1.0, Secret: {apiKey}</h1>;
+      </div>
+    )
+  }
+}
