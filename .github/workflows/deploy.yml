@@ -18,18 +18,13 @@ jobs:
     runs-on: ubuntu-latest
     env:
       REACT_APP_API_KEY: ${{ secrets.REACT_APP_API_KEY }}
-      secrets: inherit
-    steps:
-      - shell: bash
-        env:
-          SUPER_SECRET: ${{ secrets.REACT_APP_API_KEY }}
-        run: |
-          echo "$SUPER_SECRET"
+    steps:   
       - name: Checkout Repository
         uses: actions/checkout@v4
       - name: Detect package manager
         id: detect-package-manager
         run: |
+          echo "$REACT_APP_API_KEY"
           if [ -f "${{ github.workspace }}/yarn.lock" ]; then
             echo "manager=yarn" >> $GITHUB_OUTPUT
             echo "command=install" >> $GITHUB_OUTPUT
