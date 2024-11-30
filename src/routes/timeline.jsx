@@ -22,7 +22,8 @@ export default class Timeline extends Component {
                       </div>
                       <div className="timeline-label">
                         <h2>Senior Research Software Engineer at Dyson Singapore  <span>Oct 2023 - Present</span></h2>
-                        <p> I mainly working on the research projects as part of a team whilst mentoring graduates and new team members Reviewing relevant articles, papers and patents and meeting with suppliers to meet product requirements. Integrated embedded Linux software for demonstration rigs to prove feasibility of new technologies and products.</p>
+                        <p> I mainly working on the research projects as part of a team whilst mentoring graduates and new team members Reviewing relevant articles, papers and patents and meeting with suppliers to meet product requirements. Integrated embedded Linux software for demonstration rigs to prove feasibility of new technologies and products. Implemented machine learning algorithms utilizing the SoC's NPU API to significantly enhance CPU efficiency. Mastered microcontroller Software Development Kits (SDKs) and embedded toolchains, with a deep focus on optimizing low-level hardware integration and high-performance application-level code. Led the transformation of legacy Make build systems to modern, robust CMake setups, driving significant improvements in build efficiency, scalability, and cross-platform portability.
+                        </p>
                       </div>
                     </div>
                   </article>

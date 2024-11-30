@@ -5,6 +5,7 @@ import Introduction from './routes/introduction'
 import About from './routes/about'
 import Timeline from './routes/timeline'
 import Projects from './routes/projects'
+import CapstoneProject from './routes/capstone';
 
 const apiKey = process.env.REACT_APP_API_KEY;
 class App extends Component {
@@ -19,6 +20,7 @@ class App extends Component {
             <About></About>
             <Timeline></Timeline>
             <Projects></Projects>
+            <CapstoneProject></CapstoneProject>
           </div>
       	</div>
       </div>
