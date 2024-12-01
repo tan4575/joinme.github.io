@@ -13,7 +13,7 @@ export default class CapstoneProject extends Component {
 						</div>
 					</div>
 					<div className="row">
-						<div className="project" style={{backgroundImage: 'url(images/office.png)'}}>
+						<div className="blog-entry">
 							<div className="desc">
 								<div id="mcontainer"></div><div id="controls"></div>
 							</div>
