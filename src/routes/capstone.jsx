@@ -14,6 +14,7 @@ export default class CapstoneProject extends Component {
 					</div>
 					<div className="row">
 						<div className="blog-entry">
+							<h1 className="colorlib-heading animate-box">Place your mouse on each rooms to view the callout</h1>
 							<div className="desc">
 								<div id="mcontainer"></div><div id="controls"></div>
 							</div>
