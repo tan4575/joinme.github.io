@@ -15,21 +15,33 @@ export default class Timeline extends Component {
             <div className="row">
               <div className="col-md-12">
                 <div className="timeline-centered">
-                  <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+                  <article className="timeline-entry animate-box" data-animate-effect="fadeInTop">
                     <div className="timeline-entry-inner">
                       <div className="timeline-icon color-1">
                         <i className="icon-pen2" />
                       </div>
                       <div className="timeline-label">
-                        <h2>Senior Research Software Engineer at Dyson Singapore  <span>Oct 2023 - Present</span></h2>
+                        <h2>Lead Optical Transceiver Firmware Engineer at Jabil Singapore  <span>Aug 2025 - Present</span></h2>
+                        <p> Design and develop high-speed optical transceivers, including 100G, 200G, 400G, 800G, and 1.8T products. Responsible for developing software to support firmware regression testing and implementing firmware interfaces between digital signal processors (DSP) and power management ICs (PMIC) to optimize system performance and reliability.
+                        </p>
+                      </div>
+                    </div>
+                  </article>
+                  <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+                    <div className="timeline-entry-inner">
+                      <div className="timeline-icon color-2">
+                        <i className="icon-pen2" />
+                      </div>
+                      <div className="timeline-label">
+                        <h2>Senior Research Software Engineer at Dyson Singapore  <span>Oct 2023 - Aug 2025</span></h2>
                         <p> I mainly working on the research projects as part of a team whilst mentoring graduates and new team members Reviewing relevant articles, papers and patents and meeting with suppliers to meet product requirements. Integrated embedded Linux software for demonstration rigs to prove feasibility of new technologies and products. Implemented machine learning algorithms utilizing the SoC's NPU API to significantly enhance CPU efficiency. Mastered microcontroller Software Development Kits (SDKs) and embedded toolchains, with a deep focus on optimizing low-level hardware integration and high-performance application-level code. Led the transformation of legacy Make build systems to modern, robust CMake setups, driving significant improvements in build efficiency, scalability, and cross-platform portability.
                         </p>
                       </div>
                     </div>
                   </article>
-                  <article className="timeline-entry animate-box" data-animate-effect="fadeInTop">
+                  <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
                     <div className="timeline-entry-inner">
-                      <div className="timeline-icon color-2">
+                      <div className="timeline-icon color-3">
                         <i className="icon-pen2" />
                       </div>
                       <div className="timeline-label">
@@ -40,7 +52,7 @@ export default class Timeline extends Component {
                   </article>
                   <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
                     <div className="timeline-entry-inner">
-                      <div className="timeline-icon color-3">
+                      <div className="timeline-icon color-4">
                         <i className="icon-pen2" />
                       </div>
                       <div className="timeline-label">
@@ -51,7 +63,7 @@ export default class Timeline extends Component {
                   </article>
                   <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
                     <div className="timeline-entry-inner">
-                      <div className="timeline-icon color-4">
+                      <div className="timeline-icon color-5">
                         <i className="icon-pen2" />
                       </div>
                       <div className="timeline-label">
@@ -62,7 +74,7 @@ export default class Timeline extends Component {
                   </article>
                   <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
                     <div className="timeline-entry-inner">
-                      <div className="timeline-icon color-5">
+                      <div className="timeline-icon color-6">
                         <i className="icon-pen2" />
                       </div>
                       <div className="timeline-label">
