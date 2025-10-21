@@ -50,7 +50,7 @@ jobs:
       - name: Build project
         run: ${{ steps.detect-package-manager.outputs.runner }} npm run build
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v2
+        uses: actions/upload-pages-artifact@v4
         with:
           path: ./build
   # Deployment job
@@ -65,4 +65,4 @@ jobs:
         env:
           REACT_APP_API_KEY: ${{ secrets.REACT_APP_API_KEY }}
         id: deployment
-        uses: actions/deploy-pages@v3
+        uses: actions/deploy-pages@v4
