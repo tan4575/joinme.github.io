@@ -1,4 +1,5 @@
 import Script from 'next/script';
+import { assetPath } from '@/lib/assets';
 import './globals.css';
 
 export const metadata = {
@@ -6,9 +7,10 @@ export const metadata = {
   description:
     'Portfolio of Tan Wei Siang, Lead Optical Transceiver Firmware Engineer, researcher, and software developer.',
   icons: {
-    icon: '/planet-earth-9324.png',
-    apple: '/planet-earth-9324.png',
+    icon: assetPath('/planet-earth-9324.png'),
+    apple: assetPath('/planet-earth-9324.png'),
   },
+  manifest: assetPath('/manifest.json'),
 };
 
 export default function RootLayout({ children }) {
