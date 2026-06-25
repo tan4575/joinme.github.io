@@ -14,6 +14,7 @@ import { credits, navItems, profile } from '@/data/portfolio';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
+import { assetPath } from '@/lib/assets';
 import SocialIcon from '@/components/SocialIcon';
 
 const navIcons = {
@@ -31,7 +32,7 @@ export default function Sidebar() {
         <header className="text-center">
           <a href="#home" aria-label={`${profile.name}, back to introduction`}>
             <Image
-              src="/images/me.jpg"
+              src={assetPath('/images/me.jpg')}
               width={144}
               height={144}
               alt="Portrait of Tan Wei Siang"

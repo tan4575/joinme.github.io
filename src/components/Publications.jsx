@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import { publications } from '@/data/portfolio';
 import { Card, CardContent, CardDescription, CardTitle } from '@/components/ui/card';
+import { assetPath } from '@/lib/assets';
 import SectionHeading from './SectionHeading';
 
 export default function Publications() {
@@ -13,7 +14,7 @@ export default function Publications() {
             <a href={publication.href} target="_blank" rel="noreferrer" className="group block">
               <div className="relative aspect-[4/3] overflow-hidden">
                 <Image
-                  src={publication.image}
+                  src={assetPath(publication.image)}
                   alt=""
                   fill
                   sizes="(min-width: 1280px) 25vw, (min-width: 768px) 50vw, 100vw"

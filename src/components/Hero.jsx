@@ -2,6 +2,7 @@ import Image from 'next/image';
 import { Download } from 'lucide-react';
 import { heroSlides } from '@/data/portfolio';
 import { Button } from '@/components/ui/button';
+import { assetPath } from '@/lib/assets';
 
 export default function Hero() {
   return (
@@ -9,7 +10,7 @@ export default function Hero() {
       <div className="grid min-h-dvh lg:grid-cols-[1.25fr_0.75fr]">
         <div className="relative flex min-h-[620px] items-end overflow-hidden px-6 py-10 sm:px-10 lg:px-16">
           <Image
-            src={heroSlides[0].image}
+            src={assetPath(heroSlides[0].image)}
             alt=""
             fill
             sizes="(min-width: 1024px) 70vw, 100vw"
@@ -48,7 +49,7 @@ export default function Hero() {
               className="group relative isolate flex min-h-80 items-end overflow-hidden p-8"
             >
               <Image
-                src={slide.image}
+                src={assetPath(slide.image)}
                 alt=""
                 fill
                 sizes="(min-width: 1024px) 30vw, 50vw"

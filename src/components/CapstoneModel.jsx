@@ -3,8 +3,7 @@
 import Script from 'next/script';
 import { Badge } from '@/components/ui/badge';
 import { Card, CardContent } from '@/components/ui/card';
-
-const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
+import { assetPath } from '@/lib/assets';
 
 export default function CapstoneModel() {
   return (
@@ -26,7 +25,7 @@ export default function CapstoneModel() {
         </CardContent>
       </Card>
 
-      <Script src={`${basePath}/assests/output.js`} strategy="lazyOnload" />
+      <Script src={assetPath('/assests/output.js')} strategy="lazyOnload" />
     </section>
   );
 }
