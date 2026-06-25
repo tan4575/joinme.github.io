@@ -5,11 +5,11 @@ import SectionHeading from './SectionHeading';
 export default function About() {
   return (
     <section id="about" className="bg-white px-6 py-20 dark:bg-[#10171b] sm:px-10 lg:px-16">
-      <SectionHeading eyebrow="About me" title="Who am I?" />
+      <SectionHeading eyebrow="About Me" title="Who am I?" />
       <p className="mt-8 max-w-5xl text-lg leading-9 text-ink/72 dark:text-paper/72">{about}</p>
 
       <div className="mt-16">
-        <SectionHeading eyebrow="What I do" title="Experiences" />
+        <SectionHeading eyebrow="What I Do" title="Experiences" />
         <div className="mt-8 grid gap-5 xl:grid-cols-3">
           {experiences.map((item, index) => (
             <Card key={item.title} className="bg-paper/70 dark:bg-white/10">
