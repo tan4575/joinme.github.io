@@ -11,6 +11,7 @@ export const profile = {
     { label: 'Instagram', href: 'https://www.instagram.com/weitannn/' },
     { label: 'LinkedIn', href: 'https://www.linkedin.com/in/wei-siang-tan/' },
     { label: 'GitHub', href: 'https://github.com/tan4575' },
+    { label: 'ORCID', href: 'https://orcid.org/0009-0003-7854-8949' },
   ],
 };
 
